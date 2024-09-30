@@ -165,7 +165,7 @@ body {
   width: 470px;
 }
 .select option {
-  background:rgb(48, 47, 47);
+  background:rgb(62, 61, 61);
 }
 .scheme {
   margin-bottom: 40px;
@@ -315,7 +315,7 @@ body {
   }
 
 }
-@media (max-width:415px) {
+@media (max-width:431px) {
   .session-time {
     margin-bottom: 40px;  
   }
@@ -324,8 +324,12 @@ body {
     width: 100%;
   }
   .button {
-    padding: 10px 30px;
-    font-size: 15px;
+    padding: 15px 20px;
+    font-size: 13px;
+  }
+  .price-tag {
+    font-size: 45px;
+    line-height: 55px;
   }
   .session-date-item {
     width: 80px;
@@ -347,4 +351,30 @@ body {
       line-height: 17px;
     }
   
+}
+@media (max-width:391px) {
+  .button {
+      padding: 15px 10px;
+      font-size: 12px;
+    }
+  
+    .session-date-item {
+      width: 70px;
+      height: 70px;
+    }
+    .price-tag {
+      font-size: 45px;
+      line-height: 55px;
+    }
+}
+@media (max-width:345px) {
+
+  .session-date-item {
+    width: 67px;
+    height: 67px;
+  }
+  .price-tag {
+    font-size: 40px;
+    line-height: 55px;
+  }
 }
